@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_new",
+				"get_news_by_cat_id"
+			],
+			[
+				"o",
+				"offset"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"arr",
+				"arr_result"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"news",
+				"news_model"
+			],
+			[
+				"array_mer",
+				"array_merge_recursive"
+			],
+			[
+				"ro",
+				"row_array"
+			],
+			[
+				"or",
+				"or_like"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"id",
+				"id_cate"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"all",
+				"all_news"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"n",
+				"new_height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Macintosh HD 2/meteor_example/PacktMeteorRecipes/CH 02/2.05- building.custom.pckgs/end/UseTestPack/UseTestPack.js",
+		"/Volumes/Macintosh HD 2/meteor_example/PacktMeteorRecipes/CH 02/2.06- using.npm.modules/end/UseTestPack/UseTestPack.js",
+		"/Volumes/Macintosh HD 2/meteor_example/PacktMeteorRecipes/CH 02/2.01- adding.meteor.pckgs/begin/packagesTest/packagesTest.js",
+		"/Volumes/Macintosh HD 2/meteor_example/PacktMeteorRecipes/CH 02/2.02- removing.pckgs/end/packagesTest/packagesTest.js",
+		"/Volumes/Macintosh HD 2/rocket_chat/Rocket.Chat/client/methods/leaveRoom.coffee",
+		"/Volumes/Macintosh HD 2/rocket_chat/Rocket.Chat/client/methods/openRoom.coffee",
+		"/Volumes/Macintosh HD 2/rocket_chat/Rocket.Chat/client/helpers/log.coffee",
+		"/Users/longps/Downloads/filelong_data (2).sql",
+		"/Library/WebServer/Documents/alphalipid/application/controllers/admin/News.php",
+		"/Library/WebServer/Documents/alphalipid/application/config/profiler.php",
+		"/Library/WebServer/Documents/alphalipid/application/config/routes.php",
+		"/Library/WebServer/Documents/alphalipid/application/controllers/News.php",
+		"/Library/WebServer/Documents/alphalipid/application/models/site/Video_news_model.php",
+		"/Library/WebServer/Documents/alphalipid/application/models/site/Faqs_model.php",
+		"/Library/WebServer/Documents/alphalipid/application/controllers/Home.php",
+		"/Library/WebServer/Documents/alphalipid/application/controllers/Faqs.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/site/faqs.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/site/news.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/site/contact.php",
+		"/Library/WebServer/Documents/alphalipid/application/controllers/Contact.php",
+		"/Library/WebServer/Documents/alphalipid/public/admin/css/style.css",
+		"/Library/WebServer/Documents/alphalipid/public/site/css/style.css",
+		"/Library/WebServer/Documents/alphalipid/application/views/admin/group_news/videos/edit.php",
+		"/Library/WebServer/Documents/alphalipid/application/models/admin/Video_news_model.php",
+		"/Library/WebServer/Documents/alphalipid/application/models/admin/News_model.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/admin/group_news/videos/add.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/admin/group_news/news/add.php",
+		"/Library/WebServer/Documents/alphalipid/application/models/site/Cat_news_model.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/admin/group_news/news/list.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/admin/group_news/videos/list.php",
+		"/Library/WebServer/Documents/alphalipid/application/views/admin/group_news/news/edit.php",
+		"/Library/WebServer/Documents/alphalipid/application/config/config.php",
+		"/Library/WebServer/Documents/alphalipid/composer.json",
+		"/Library/WebServer/Documents/alphalipid/index.php",
+		"/Library/WebServer/Documents/phpmyadmin/config.inc.php",
+		"/Library/WebServer/Documents/phpmyadmin/config.sample.inc.php.php",
+		"/Library/WebServer/Documents/Blog/composer.json",
+		"/Library/WebServer/Documents/Blog/fuel/app/classes/controller/welcome.php",
+		"/Library/WebServer/Documents/Blog/fuel/app/modules/api/classes/controller/HomeController.php",
+		"/Library/WebServer/Documents/Blog/fuel/app/config/routes.php",
+		"/Library/WebServer/Documents/Blog/fuel/app/modules/api/config/routes.php",
+		"/Library/WebServer/Documents/Blog/fuel/app/config/config.php",
+		"/Library/WebServer/Documents/Blog/fuel/app/modules/api/classes/HomeController.php",
+		"/Library/WebServer/Documents/Blog/fuel/app/modules/api/classes/IndexController.php",
+		"/Library/WebServer/Documents/Blog/fuel/core/tasks/install.php",
+		"/Library/WebServer/Documents/index.php",
+		"/Users/longps/Desktop/PhotoshopScriptCalendar2015.jsx",
+		"/Volumes/797E2C5E-95EE-403D-8FAE-16EAC33D2168-443-0000017170192ED0/Calendar Script - VietDesigner.net/PhotoshopScriptCalendar2015.jsx",
+		"/Applications/XAMPP/xamppfiles/htdocs/testimage/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/long/e-survey.com/public/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/long/e-survey.com/public/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/long/e-survey.com/phpinfo.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"><",
+			"Add",
+			"maincontentinner",
+			"changeGroupNews",
+			"changeGroupNews(this);",
+			"(){\n",
+			" $",
+			" ,",
+			"imagethumbsize2",
+			"-($new_width/2) +",
+			"fals"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"htm",
+				"packages/rocketchat-livechat/assets/demo.html"
+			],
+			[
+				"confog",
+				"fuel/app/config/config.php"
+			],
+			[
+				"conf",
+				"fuel/app/config/config.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Install"
+			]
+		],
+		"width": 656.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

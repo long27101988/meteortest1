@@ -1,0 +1,86 @@
+<head>
+  <title>chatapp</title>
+  <link rel="stylesheet" href="lib/styles/main.css">
+</head>
+
+<body>
+
+	{{> image_add_form}}
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="text-right">
+				{{> loginButtons align="right"}}
+			</div>
+		</div>
+	</nav>
+  	<h1>Welcome to {{username}}</h1>
+	<div class="container">
+		
+		{{> routeexample}}
+	</div>
+</body>
+
+<template name="routeexample">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="image_add_form" >
+	<div class="modal fade" id="image_add_form">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title">
+					</div>
+				</div>
+
+				<div class="modal-body">
+					<form class='js-form-addimg' method="POST" enctype="multipart/form-data">
+						<input type="file" class="jqUploadclass" data-form-data='{{ submitData }}'>
+				        {{#with infoLabel}}
+				            {{ infoLabel}}
+				            <div style="width: 200px; height: 30px; border: 1px solid black">
+				                <div style="background: red; height: 30px; width: {{ progress }}">
+				                    {{ progress }}
+				                </div>
+				            </div>
+				        {{/with}}
+				        <input type="hidden" value="{{ infoLabel }}" name="img_src">
+						<input type="text" name="img_alt">
+						<button class="btn btn-success">Save</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-warning" data-dismiss="modal">cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="thing1">
+	{{#if currentUser}}
+	<button class="btn btn-success js-show-modal-image">Add Image</button>
+	{{/if}}
+	<div class="row">
+		{{#each images}}
+			<div class="col-xs-12 col-md-3" id={{_id}}>
+				<div class="thumbnail">
+					<img class="js-image" src="{{img_src}}" alt="{{img_alt}}">
+					<div class="caption">
+						<h3>Rating: {{rating}}</h3>
+						<p>{{img_alt}}</p>
+						{{> starsRating class='js-rate-image' rating=rating mutable = 'true' id = _id }}
+						<button class="js-image-delete btn btn-warning"> delete</button>
+					</div>
+				</div>	
+			</div>
+		{{/each}}
+	</div>
+</template>
+
+<template name="thing2">
+  <div>this is thing 2</div>
+
+</template>
+
